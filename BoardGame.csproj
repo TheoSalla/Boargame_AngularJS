@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>156bde14-b592-4752-bd7f-9590711e1ee0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.css.map" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css" />
+    <Content Remove="C:\Users\Theodor\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Include="wwwroot\Angular\randomGame.html" />
+		<None Include="wwwroot\Angular\readMore.html" />
+		<None Include="wwwroot\Angular\userFullCollection.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AngularJS.Core" Version="1.8.0" />
+		<PackageReference Include="AngularJS.Route" Version="1.8.0" />
+		<PackageReference Include="bootstrap" Version="4.5.2" />
+		<PackageReference Include="HangFire" Version="1.7.16" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>

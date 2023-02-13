@@ -1,0 +1,29 @@
+﻿<br />
+
+<div class="container text-center jumbotron" style="border: solid #BB4430 5px">
+    <img ng-src="{{gameInfo.image}}" alt="Alternate Text" width="200" />
+    <br />
+    <br />
+    <table class="table table-bordered table-striped">
+        <tr>
+            <td>Year</td>
+            <td>Designer</td>
+            <td>Artist</td>
+            <td>Category</td>
+        </tr>
+        <tr>
+            <td>{{gameInfo.year}}</td>
+            <td>{{gameInfo.designer}}</td>
+            <td>{{gameInfo.artist}}</td>
+            <td>{{gameInfo.category}}</td>
+        </tr>
+    </table>
+    <div class="pre-scrollable">
+        <p class="text-left overflow-auto">{{gameInfo.description}}</p>
+    </div>
+    <br />
+        <a id="backButton" class="btn btn-lg" href="#">Back</a>
+</div>
+
+
+

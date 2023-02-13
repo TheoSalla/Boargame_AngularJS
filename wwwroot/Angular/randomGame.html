@@ -1,0 +1,42 @@
+﻿<div class="modal fade" id="gameModal" tabindex="-1" role="dialog" aria-labelledby="gameModalLabel" aria-hidden="true">
+    <div class="modal-dialog randomModal" role="document">
+        <div class="randomColor modal-content">
+            <div class="randomColor modal-header">
+                <h5 data-dismiss="modal" class="modal-title randomColor" id="gameModalLabel"><button class="btn btn-group-lg" ng-click="readMore(randomGame.gameId)">{{randomGame.gameName}}</button>  </h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+
+            </div>
+            <div class="randomColor ranomSize modal-dialog modal-dialog-centered">
+                <div class="card changeCard">
+                    <img class="changePicRandom card-img-top" ng-src="{{randomGame.image}}" height="300">
+                    <div class="randomColor card-body">
+                        <p class="card-text">
+                            <table class="changeTextSizeRandom table table-striped">
+                                <tr>
+                                    <td>From User</td>
+                                    <td>Min player</td>
+                                    <td>Max player</td>
+                                    <td>Playing time</td>
+                                </tr>
+                                <tr>
+                                    <td>{{randomGame.userName}}</td>
+                                    <td>{{randomGame.minPlayer}}</td>
+                                    <td>{{randomGame.maxPlayer}}</td>
+                                    <td>{{randomGame.playingTime}}</td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
